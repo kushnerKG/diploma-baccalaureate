@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{cef59e6b-fbc1-4047-8043-25f2e6a65857}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{d5460aa5-d012-4b26-baf9-bc05091f3996}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\graphics">
+      <UniqueIdentifier>{b4e5061a-bd94-413e-a1ca-8bff17c82483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ui">
+      <UniqueIdentifier>{3309fafa-e11e-453e-ae67-f4ccc0a96bba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{4129a271-0a1a-4a92-a88c-80dcb01e9911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graphics\colors">
+      <UniqueIdentifier>{4292ba90-e33c-4156-998d-1822bc357a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics">
+      <UniqueIdentifier>{e8567edd-ce4b-4ad2-8161-f2e228040d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{1836d3b4-34ec-4e0d-986a-58681f5c1f7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{8dd03a5a-1f96-4ee9-9bea-6381d1a86b82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics\colors">
+      <UniqueIdentifier>{14317946-1795-48c4-8acb-c5f0ccfc2514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model">
+      <UniqueIdentifier>{a134947f-4d23-4271-aafe-f8c69977d6d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model">
+      <UniqueIdentifier>{036c024c-e3f5-4a81-987f-1a8fe104e573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\controller">
+      <UniqueIdentifier>{985662cb-6e58-464d-9728-e97164e3e454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controller">
+      <UniqueIdentifier>{619c8738-05b0-42a7-97b9-0e6ab11236bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model\scene">
+      <UniqueIdentifier>{f1db4860-2429-4556-913b-5f8c2d680459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model\shapes">
+      <UniqueIdentifier>{6aaeae86-64e4-4505-8740-1dca7a157e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\scene">
+      <UniqueIdentifier>{6c691751-13cf-4c03-a525-ae24a80a44c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\shapes">
+      <UniqueIdentifier>{7ebc9934-0e2f-4326-a5b5-032b3fc3ba23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model\raytracing">
+      <UniqueIdentifier>{05ee9b47-1b56-4d1d-b9e0-dbac5c977c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\raytracing">
+      <UniqueIdentifier>{47740835-e21d-4ae0-9ae3-57e24668aad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model\raytracing\spectr">
+      <UniqueIdentifier>{bc8acbf3-32c9-4514-92e6-5aae08ffcbb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\raytracing\spectr">
+      <UniqueIdentifier>{b105e658-32d3-4c5e-a391-52d80bb18580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model\raytracing\crt">
+      <UniqueIdentifier>{5f311d37-cb86-4c2c-83b2-038036b56483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\raytracing\crt">
+      <UniqueIdentifier>{7ae52188-ee8c-4941-9708-78783d8a6767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\raytracing\RGB">
+      <UniqueIdentifier>{de3223dd-ebab-4cde-b217-90c3275ed3bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model\raytracing\RGB">
+      <UniqueIdentifier>{fca5afe4-169b-4578-9d31-0fd890d3925b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\raytracing\transfer">
+      <UniqueIdentifier>{15a113b9-1773-405f-b7a7-bd3315ce21e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model\raytracing\transfer">
+      <UniqueIdentifier>{e7b6beeb-8da1-4db4-ba17-bc198bdfa12f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_raytracing.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_RenderSettingsDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_RenderSettingsDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Source Files\model\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Source Files\model\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Source Files\model\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Quadrangle.cpp">
+      <Filter>Source Files\model\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="ParserUtils.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CanvasWidget.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSettingsDialog.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="PointVector3D.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="LightSource.cpp">
+      <Filter>Source Files\model\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="OpticProperties.cpp">
+      <Filter>Source Files\model\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderFileReader.cpp">
+      <Filter>Source Files\model\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderInfo.cpp">
+      <Filter>Source Files\model\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneFileInfo.cpp">
+      <Filter>Source Files\model\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneFileReader.cpp">
+      <Filter>Source Files\model\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="RgbColor.cpp">
+      <Filter>Source Files\graphics\colors</Filter>
+    </ClCompile>
+    <ClCompile Include="LineSegment.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixFactory.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>Source Files\model\raytracing</Filter>
+    </ClCompile>
+    <ClCompile Include="IntersectionInfo.cpp">
+      <Filter>Source Files\model\raytracing</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvancedOpticProperties.cpp">
+      <Filter>Source Files\model\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Lens.cpp">
+      <Filter>Source Files\model\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskQueue.cpp">
+      <Filter>Source Files\model\raytracing</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>Source Files\model\raytracing</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderWorker.cpp">
+      <Filter>Source Files\model\raytracing</Filter>
+    </ClCompile>
+    <ClCompile Include="Cylinder.cpp">
+      <Filter>Source Files\model\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="NewLens.cpp">
+      <Filter>Source Files\model\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Transmission.cpp">
+      <Filter>Source Files\model\raytracing</Filter>
+    </ClCompile>
+    <ClCompile Include="SpectrumRender.cpp">
+      <Filter>Source Files\model\raytracing\spectr</Filter>
+    </ClCompile>
+    <ClCompile Include="SpectrumIntensity.cpp">
+      <Filter>Source Files\model\raytracing\spectr</Filter>
+    </ClCompile>
+    <ClCompile Include="SpectrumIntensityMap.cpp">
+      <Filter>Source Files\model\raytracing\spectr</Filter>
+    </ClCompile>
+    <ClCompile Include="crt_spectrum2rgb.cpp">
+      <Filter>Source Files\model\raytracing\crt</Filter>
+    </ClCompile>
+    <ClCompile Include="crt_rgb2spectrum.cpp">
+      <Filter>Source Files\model\raytracing\crt</Filter>
+    </ClCompile>
+    <ClCompile Include="RgbIntensity.cpp">
+      <Filter>Source Files\model\raytracing\RGB</Filter>
+    </ClCompile>
+    <ClCompile Include="RgbIntensityMap.cpp">
+      <Filter>Source Files\model\raytracing\RGB</Filter>
+    </ClCompile>
+    <ClCompile Include="SpectrumColor.cpp">
+      <Filter>Source Files\graphics\colors</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Source Files\model\raytracing</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderWithFlatLightSource.cpp">
+      <Filter>Source Files\model\raytracing</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandExecutor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RayTransfer.cpp">
+      <Filter>Source Files\model\raytracing\transfer</Filter>
+    </ClCompile>
+    <ClCompile Include="RayGeneratePlane.cpp">
+      <Filter>Source Files\model\raytracing\transfer</Filter>
+    </ClCompile>
+    <ClCompile Include="PolarizedRay.cpp">
+      <Filter>Source Files\model\raytracing</Filter>
+    </ClCompile>
+    <ClCompile Include="Substrate.cpp">
+      <Filter>Source Files\model\shapes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="raytracing.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainwindowform.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rendersettingdialogform.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainWindow.h">
+      <Filter>Header Files\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RenderSettingsDialog.h">
+      <Filter>Header Files\ui</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_mainwindowform.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_rendersettingdialogform.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Header Files\model\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Header Files\model\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Header Files\model\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Header Files\model\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Quadrangle.h">
+      <Filter>Header Files\model\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="CanvasWidget.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ParserUtils.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSource.h">
+      <Filter>Header Files\model\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticProperties.h">
+      <Filter>Header Files\model\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderFileReader.h">
+      <Filter>Header Files\model\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderInfo.h">
+      <Filter>Header Files\model\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneFileInfo.h">
+      <Filter>Header Files\model\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneFileReader.h">
+      <Filter>Header Files\model\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="LineSegment.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="IModelObservable.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="IModelListener.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="RgbColor.h">
+      <Filter>Header Files\graphics\colors</Filter>
+    </ClInclude>
+    <ClInclude Include="PointVector3D.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixFactory.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Header Files\model\raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Header Files\model\raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="IntersectionInfo.h">
+      <Filter>Header Files\model\raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvancedOpticProperties.h">
+      <Filter>Header Files\model\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Lens.h">
+      <Filter>Header Files\model\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskQueue.h">
+      <Filter>Header Files\model\raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>Header Files\model\raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderWorker.h">
+      <Filter>Header Files\model\raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="Cylinder.h">
+      <Filter>Header Files\model\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="NewLens.h">
+      <Filter>Header Files\model\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Transmission.h">
+      <Filter>Header Files\model\raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="SpectrumRender.h">
+      <Filter>Header Files\model\raytracing\spectr</Filter>
+    </ClInclude>
+    <ClInclude Include="SpectrumIntensity.h">
+      <Filter>Header Files\model\raytracing\spectr</Filter>
+    </ClInclude>
+    <ClInclude Include="SpectrumIntensityMap.h">
+      <Filter>Header Files\model\raytracing\spectr</Filter>
+    </ClInclude>
+    <ClInclude Include="crt.h">
+      <Filter>Header Files\model\raytracing\crt</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Header Files\graphics\colors</Filter>
+    </ClInclude>
+    <ClInclude Include="RgbIntensity.h">
+      <Filter>Header Files\model\raytracing\RGB</Filter>
+    </ClInclude>
+    <ClInclude Include="RgbIntensityMap.h">
+      <Filter>Header Files\model\raytracing\RGB</Filter>
+    </ClInclude>
+    <ClInclude Include="Intensity.h">
+      <Filter>Header Files\model\raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="IntensityMap.h">
+      <Filter>Header Files\model\raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="SpectrumColor.h">
+      <Filter>Header Files\graphics\colors</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSetting.h">
+      <Filter>Header Files\model\raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryLeakHeader.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderWithFlatLightSource.h">
+      <Filter>Header Files\model\raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandExecutor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RayTransfer.h">
+      <Filter>Header Files\model\raytracing\transfer</Filter>
+    </ClInclude>
+    <ClInclude Include="RayGeneratePlane.h">
+      <Filter>Header Files\model\raytracing\transfer</Filter>
+    </ClInclude>
+    <ClInclude Include="PolarizedRay.h">
+      <Filter>Header Files\model\raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="Substrate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\ex.scene" />
+    <None Include="Data\ex.render" />
+    <None Include="Data\triangle.render" />
+    <None Include="Data\triangle.scene" />
+    <None Include="Data\surface.render" />
+    <None Include="Data\surface.scene" />
+    <None Include="Data\StandfordBunny.render" />
+    <None Include="Data\StandfordBunny.scene" />
+    <None Include="Data\sphere.render" />
+    <None Include="Data\sphere.scene" />
+    <None Include="Data\test.render" />
+    <None Include="Data\test.scene" />
+    <None Include="Data\LenseTest.scene" />
+    <None Include="Data\LenseTest.render" />
+    <None Include="Data\Lens.scene" />
+    <None Include="Data\Lens.render" />
+    <None Include="Data\cylinder.render" />
+    <None Include="Data\cylinder.scene" />
+    <None Include="Data\newLens.render" />
+    <None Include="Data\newLens.scene" />
+    <None Include="Data\newLens.sceneSpectrum" />
+    <None Include="Data\test.commands" />
+    <None Include="Data\lense.transfer" />
+    <None Include="Data\angleSf11.render" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="Data\concentric.render" />
+    <None Include="Data\concentric.scene" />
+    <None Include="Data\concentric.sceneSpectrum" />
+    <None Include="Data\labirinth.render" />
+    <None Include="Data\labirinth.scene" />
+    <None Include="Data\labirinth.sceneSpectrum" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="trancferPolarization.txt" />
+    <Text Include="Data\transfer.txt" />
+    <Text Include="time.txt" />
+  </ItemGroup>
+</Project>

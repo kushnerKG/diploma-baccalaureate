@@ -1,0 +1,11 @@
+//тип конфигурационный_файл_сцены настройки_рендеринга имя_сохраненного_изображения высота_изображения //соотношение сторон в render файле
+//RGB newLens.scene newLens.render rgb_height_1600_ref_1_6.bmp 1600//dssd
+//vsdvsdvsdvsd
+//RGB ex.scene ex.render largeTest.bmp 1000//esvsdvsds
+//vsdvsdvsdvd
+//CLASSIC_SPECTR newLens.sceneSpectrum newLens.render classicSpectr_height_1600_ref_custom_increasing.bmp 1600
+//SPECTR_WITH_FLAT_LIGHT newLens.sceneSpectrum newLens.render frontDispersionWithSchlick.bmp 400
+POLARIZATION_WITH_FLAT_LIGHT newLens.sceneSpectrum newLens.render frontPolarization.bmp 400
+//SPECTR_WITH_FLAT_LIGHT newLens.sceneSpectrum angleSf11.render angleDispersionWithSchlick.bmp 400
+POLARIZATION_WITH_FLAT_LIGHT newLens.sceneSpectrum angleSf11.render anglePolarization.bmp 400
+

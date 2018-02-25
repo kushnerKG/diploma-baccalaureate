@@ -1,0 +1,37 @@
+#ifndef RAYTRACING_H
+#define RAYTRACING_H
+
+#include <QtWidgets/QMainWindow>
+#include "ui_mainwindowform.h"
+
+class MainWindow : public QMainWindow
+{
+	Q_OBJECT
+
+public:
+	MainWindow(QWidget *parent = 0);
+	~MainWindow();
+
+
+protected:
+	void paintEvent(QPaintEvent* event) override;
+
+private:
+	Ui::MainWindow ui;
+
+private slots:
+	void slotOpenSceneFile();
+	void slotOpenRenderFile();
+	void slotSaveRenderSettings();
+	void slotSaveImage();
+	void slotQuit();
+	void slotRenderSetting();
+	void slotInit();
+	void slotRender();
+	void slotChooseViewScene();
+	void slotHelp();
+ 
+
+};
+
+#endif // RAYTRACING_H

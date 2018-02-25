@@ -1,0 +1,22 @@
+#pragma once
+#include "C:\QT\Qt5.7.0\5.7\msvc2013_64\include\QtWidgets\qwidget.h"
+class CanvasWidget :
+	public QWidget
+{
+public:
+	CanvasWidget(QWidget *parent = 0);
+	~CanvasWidget();
+
+
+protected:
+	void paintEvent(QPaintEvent* event) override;
+
+
+	void mousePressEvent(QMouseEvent* event) override;
+	void mouseReleaseEvent(QMouseEvent* event) override;
+	void mouseMoveEvent(QMouseEvent* event) override;
+
+
+	void wheelEvent(QWheelEvent* event) override;
+};
+

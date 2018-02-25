@@ -1,0 +1,168 @@
+RAY #1
+Init
+start: 0 0 0
+direction: 0 0 1
+polarization: 0.707107 0.707107 -0 1
+
+Start transfer
+intersection # 1
+intersection: 0 0 3
+direction: 0 0 1
+polarization: 0.494352 0.494352 -0 0.69912
+intensity: 0.909471
+
+intersection # 2
+intersection: 0 0 4.76473
+direction: 0 0 1
+polarization: 0.643093 0.643093 -0 0.909471
+intensity: 0.827137
+
+intersection # 3 with plane
+intersection: 0 0 10
+
+
+RAY #2
+Init
+start: 1 0 0
+direction: 0 0 1
+polarization: 0.707107 0.707107 -0 1
+
+Start transfer
+intersection # 1
+intersection: 1 0 3
+direction: 0 0 1
+polarization: 0.494352 0.494352 -0 0.69912
+intensity: 0.909471
+
+intersection # 2
+intersection: 1 0 4.68081
+direction: -0.147337 0 0.989086
+polarization: 0.651247 0.651247 0.0970112 0.926097
+intensity: 0.826937
+
+intersection # 3 with plane
+intersection: 0.207642 0 10
+
+
+RAY #3
+Init
+start: 2 0 0
+direction: 0 0 1
+polarization: 0.707107 0.707107 -0 1
+
+Start transfer
+intersection # 1
+intersection: 2 0 3
+direction: 0 0 1
+polarization: 0.494352 0.494352 -0 0.69912
+intensity: 0.909471
+
+intersection # 2
+intersection: 2 0 4.42159
+direction: -0.323306 0 0.946295
+polarization: 0.683218 0.683218 0.233425 0.994013
+intensity: 0.822056
+
+intersection # 3 with plane
+intersection: 0.0941101 0 10
+
+
+RAY #4
+Init
+start: 3 0 0
+direction: 0 0 1
+polarization: 0.707107 0.707107 -0 1
+
+Start transfer
+intersection # 1
+intersection: 3 0 3
+direction: 0 0 1
+polarization: 0.494352 0.494352 -0 0.69912
+intensity: 0.909471
+
+intersection # 2
+intersection: 3 0 3.96088
+direction: -0.622414 0 0.782688
+polarization: 0.805455 0.805455 0.64052 1.30682
+intensity: 0.722967
+
+intersection # 3 with plane
+intersection: -1.80247 0 10
+
+
+RAY #5
+Init
+start: 4 0 0
+direction: 0 0 1
+polarization: 0.707107 0.707107 -0 1
+
+Start transfer
+intersection # 1
+intersection: 4 0 3
+direction: 0 0 1
+polarization: 0.494352 0.494352 -0 0.69912
+intensity: 0.909471
+
+intersection # 2
+intersection: 4 0 3.23687
+угол полного внутреннего отражения
+-0.666667 -0 -0.745356
+0.745356
+
+RAY #6
+Init
+start: 2 0 0
+direction: 0 0 1
+polarization: 0.707107 0.707107 -0 1
+
+Start transfer
+intersection # 1
+intersection: 2 0 3
+direction: 0 0 1
+polarization: 0.494352 0.494352 -0 0.69912
+intensity: 0.909471
+
+intersection # 2
+intersection: 2 0 4.42159
+direction: -0.323306 0 0.946295
+polarization: 0.683218 0.683218 0.233425 0.994013
+intensity: 0.822056
+
+RAY #7
+Init
+start: -2 0 0
+direction: 0 0 1
+polarization: 0.707107 0.707107 -0 1
+
+Start transfer
+intersection # 1
+intersection: -2 0 3
+direction: 0 0 1
+polarization: 0.494352 0.494352 -0 0.69912
+intensity: 0.909471
+
+intersection # 2
+intersection: -2 0 4.42159
+direction: 0.323306 0 0.946295
+polarization: 0.683218 0.683218 -0.233425 0.994013
+intensity: 0.822056
+
+RAY #8
+Init
+start: 0 2 0
+direction: 0 0 1
+polarization: 0.707107 0.707107 -0 1
+
+Start transfer
+intersection # 1
+intersection: 0 2 3
+direction: 0 0 1
+polarization: 0.494352 0.494352 -0 0.69912
+intensity: 0.909471
+
+intersection # 2
+intersection: 0 2 4.42159
+direction: 0 -0.323306 0.946295
+polarization: 0.683218 0.683218 0.233425 0.994013
+intensity: 0.822056
+

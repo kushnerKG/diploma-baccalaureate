@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/Raytracing">
+        <file>Resources/open.gif</file>
+        <file>Resources/folder_open.png</file>
+        <file>Resources/axis.png</file>
+        <file>Resources/icon_close.png</file>
+        <file>Resources/setting.png</file>
+        <file>Resources/save.png</file>
+        <file>Resources/polarization.png</file>
+        <file>Resources/spectrum.png</file>
+        <file>Resources/render.png</file>
+        <file>Resources/dispersion.png</file>
+        <file>Resources/commands.png</file>
+        <file>Resources/rayTransfer.png</file>
+    </qresource>
+</RCC>

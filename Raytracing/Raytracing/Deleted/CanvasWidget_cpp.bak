@@ -1,0 +1,62 @@
+#include "CanvasWidget.h"
+#include <QWidget>
+#include <QPainter>
+#include <QDebug>
+#include <QMouseEvent>
+
+
+CanvasWidget::CanvasWidget(QWidget *parent) : QWidget(parent)
+{
+}
+
+CanvasWidget::~CanvasWidget()
+{
+}
+
+void CanvasWidget::paintEvent(QPaintEvent* event)
+{
+	QImage image(size(), QImage::Format_ARGB32_Premultiplied);
+
+	int static width = size().width();
+	int static height = size().height();
+	
+	QPainter painter;
+	
+	setFixedWidth(width);
+	setFixedHeight(height);
+	painter.begin(&image);
+	painter.initFrom(this);
+	painter.setRenderHint(QPainter::Antialiasing, true);
+	painter.eraseRect(rect());
+
+	painter.setPen(QPen(Qt::black, 1, Qt::SolidLine));
+	painter.setBrush(QBrush(Qt::red, Qt::BDiagPattern));
+	painter.drawEllipse(0, 0, width, height);
+	painter.end();
+
+	//qDebug() << size().width() << " " << size().height();
+
+	painter.begin(this);
+	painter.drawImage(0, 0, image);
+	painter.end();
+}
+
+void CanvasWidget::mousePressEvent(QMouseEvent* event)
+{
+	qDebug() << "mousePressEvent " << event->pos().x() << " " << event->pos().y();
+}
+
+void CanvasWidget::mouseReleaseEvent(QMouseEvent* event)
+{
+	qDebug() << "mouseReleaseEvent " << event->pos().x() << " " << event->pos().y();
+}
+
+void CanvasWidget::mouseMoveEvent(QMouseEvent* event)
+{
+	qDebug() << "mouseMoveEvent " << event->pos().x() << " " << event->pos().y();
+}
+
+void CanvasWidget::wheelEvent(QWheelEvent* event)
+{
+	qDebug() << "wheelEvent() " << event->delta() ;
+}

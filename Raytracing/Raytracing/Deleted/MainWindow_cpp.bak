@@ -1,0 +1,113 @@
+#include <iostream>
+#include <QDir>
+#include <QFileDialog>
+#include <QPainter>
+#include <QDebug>
+
+#include "MainWindow.h"
+#include "RenderSettingsDialog.h"
+
+
+MainWindow::MainWindow(QWidget *parent)
+	: QMainWindow(parent)
+{
+	ui.setupUi(this);
+
+	connect(ui.openSceneFileAction, SIGNAL(triggered()), SLOT(slotOpenSceneFile()));
+	connect(ui.openRenderFileAction, SIGNAL(triggered()), SLOT(slotOpenRenderFile()));
+	connect(ui.saveRenderSettingAction, SIGNAL(triggered()), SLOT(slotSaveRenderSettings()));
+	connect(ui.saveImageAction, SIGNAL(triggered()), SLOT(slotSaveImage()));
+	connect(ui.quitAction, SIGNAL(triggered()), SLOT(slotQuit()));
+	connect(ui.renderSettingDiolagAction, SIGNAL(triggered()), SLOT(slotRenderSetting()));
+	connect(ui.initStateAction, SIGNAL(triggered()), SLOT(slotInit()));
+	connect(ui.renderAction, SIGNAL(triggered()), SLOT(slotRender()));
+	connect(ui.chooseViewAction, SIGNAL(triggered()), SLOT(slotChooseViewScene()));
+	connect(ui.helpMenu, SIGNAL(triggered()), SLOT(slotHelp()));
+}
+
+MainWindow::~MainWindow()
+{
+
+}
+
+void MainWindow::paintEvent(QPaintEvent* event)
+{
+	//qDebug() << "mainWindow" <<  size().width() << " " << size().height();
+}
+
+void MainWindow::slotOpenSceneFile()
+{
+	qDebug() << "OpenSceneFile()";
+	QString str = QFileDialog::getOpenFileName(this, "Select a scene file...", "./Data", "*.scene");
+	qDebug() << str;
+	std::cout << "sdjkvjksdn";
+}
+
+void MainWindow::slotOpenRenderFile()
+{
+	qDebug("OpenRenderFile()");
+	QString str = QFileDialog::getOpenFileName(this, "Select a render file...", "./Data", "*.render");
+	qDebug() << str;
+	
+	//RenderFileReader renderFileReader(str);
+	//std::shared_ptr<RenderInfo> renderFileInfo = renderFileReader.read();
+
+	//std::cout << *renderFileInfo;
+}
+
+
+void MainWindow::slotSaveRenderSettings()
+{
+	qDebug("SaveRenderSettings()");
+	QFileDialog::getSaveFileName(this, "Select directory for save...", "./Data", nullptr);
+}
+
+void MainWindow::slotSaveImage()
+{
+	qDebug("SaveImage()");
+	QFileDialog::getSaveFileName(this, "Select directory for save...", "./Data", nullptr);
+}
+
+void MainWindow::slotQuit()
+{
+	qDebug("Quit()");
+	exit(0);
+}
+
+void MainWindow::slotRenderSetting()
+{
+	qDebug("RenderSetting()");
+
+	RenderSettingsDialog dialog(this);
+	switch (dialog.exec()) {
+	case QDialog::Accepted:
+		qDebug("Accepted");
+		//m_edit->setText(dlg.getInput());
+		break;
+	case QDialog::Rejected:
+		qDebug("Rejected");
+		break;
+	default:
+		qDebug("Unexpected");
+	}
+}
+
+void MainWindow::slotInit()
+{
+	qDebug("Init()");
+}
+
+void MainWindow::slotRender()
+{
+	qDebug("Render()");
+}
+
+void MainWindow::slotChooseViewScene()
+{
+	qDebug("ChooseScene()");
+}
+
+void MainWindow::slotHelp()
+{
+	qDebug("Help()");
+}
